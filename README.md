@@ -63,7 +63,7 @@ Additionally, there are some initial definitions:
 
  **`Full example of output`**
 
-Enter how many rounds you want?
+```Enter how many rounds you want?
 Your Choice: 3
 
           === ROUND 1/3 ===
