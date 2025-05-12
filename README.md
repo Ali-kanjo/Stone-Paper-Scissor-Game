@@ -61,3 +61,41 @@ Additionally, there are some initial definitions:
 *   **`enum enGameParticipants { Player = 1, Coumputer = 2, Draw = 3 };`**: This enumeration defines the possible participants or round outcomes (Player, Computer, Draw) and assigns a numerical value to each.
 *   **`struct strGameResults`**: This structure is defined to store the game results, such as the number of rounds, player wins, computer wins, and draw counts.
 
+***Full example of output
+
+Enter how many rounds you want?
+Your Choice: 3
+
+          === ROUND 1/3 ===
+Your Choice : [1] Stone, [2] Paper, [3] Scissors? 2
+
+[PLAYER]  Choice: Paper
+[COMPUTER] Choice: Stone
+[ROUND WINNER] Player
+
+          === ROUND 2/3 ===
+Your Choice : [1] Stone, [2] Paper, [3] Scissors? 1
+
+[PLAYER]  Choice: Stone
+[COMPUTER] Choice: Scissors
+[ROUND WINNER] Player
+
+          === ROUND 3/3 ===
+Your Choice : [1] Stone, [2] Paper, [3] Scissors? 3
+
+[PLAYER]  Choice: Scissors
+[COMPUTER] Choice: Scissors
+[ROUND WINNER] No Winner (Draw)
+
+          === FINAL RESULTS ===
+____________________________________________________________
+                   +++ GAME OVER +++
+____________________________________________________________
+
+Total Rounds Played: 3
+Player Wins:    2
+Computer Wins:  0
+Draws:          1
+Final Winner:   Player
+
+Would you like to play again? (Y/N)? n
