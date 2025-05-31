@@ -7,8 +7,8 @@ determining the final winner. The project demonstrates various programming conce
 and serves as an excellent example for beginners in programming.
 
 ## Features
-*Easy-to-use text-based user interface
-*Configurable number of rounds (from 1 to 100)
+***Easy-to-use text-based user interface
+***Configurable number of rounds (from 1 to 100)
 *Random computer choice generation
 *Tracking of individual round results and overall statistics
 *Screen color changes based on round outcomes
