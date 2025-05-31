@@ -1,65 +1,254 @@
-## Rock Paper Scissors Game Functions Explanation (C++)
+Rock-Paper-Scissors Game
 
-Below is a brief explanation of each function present in the C++ code file you provided:
 
-1.  **`int ReadNumberRange(int From, int To, string Message)`**:
-    *   **Function**: This function reads a number input by the user. It ensures that the entered number falls within a specific range (between `From` and `To`). If the user enters a number outside this range, the function prompts for re-entry until a valid number is provided. The function displays a `Message` to guide the user.
 
-2.  **`int RandomNumber(int From, int To)`**:
-    *   **Function**: This function generates and returns a random integer within a specified range (between `From` and `To`, inclusive).
 
-3.  **`string Tabs(unsigned short NumOfTabs)`**:
-    *   **Function**: This function creates and returns a string containing a specified number (`NumOfTabs`) of tab characters (`\t`). This is typically used for formatting output on the screen.
 
-4.  **`enGameOption ComputerChoice()`**:
-    *   **Function**: This function randomly determines the computer's choice (Stone, Paper, or Scissors) in the game. It returns a value of type `enGameOption`.
 
-5.  **`enGameOption UserChoice()`**:
-    *   **Function**: This function prompts the user to enter their choice (Stone, Paper, or Scissors) by displaying the available options. It returns a value of type `enGameOption` representing the user's choice.
 
-6.  **`string ConvertOptionFromEnumToText(enGameOption Option)`**:
-    *   **Function**: This function converts an `enGameOption` enum value (representing Stone, Paper, or Scissors) into its corresponding string representation (e.g., "Stone", "Paper", "Scissor").
+Overview
 
-7.  **`enGameParticipants CheckRoundWinner(enGameOption UserChoice, enGameOption ComputerChoice)`**:
-    *   **Function**: This function determines the winner of a single round of Rock Paper Scissors based on the `UserChoice` and `ComputerChoice`. It returns a value of type `enGameParticipants` (representing Player, Computer, or Draw).
+This project is an implementation of the classic "Rock-Paper-Scissors" game written in C++. It allows users to play against the computer in multiple rounds, tracking results and determining the final winner. The project demonstrates various programming concepts and serves as an excellent example for beginners in programming.
 
-8.  **`enGameParticipants CheckFinalWinner(strGameResults GameResults)`**:
-    *   **Function**: This function determines the overall winner of the game based on the total wins for the player and the computer, which are stored in the `GameResults` struct.
+Features
 
-9.  **`string CalculateFinalResult(strGameResults& GameResults, enGameParticipants RoundWinner)`**:
-    *   **Function**: This function updates the game results stored in the `GameResults` struct (such as player wins, computer wins, draw counts, and total rounds) based on the `RoundWinner`. It also returns the name of the round winner as a string.
+•
+Easy-to-use text-based user interface
 
-10. **`string GetTheWinner(enGameParticipants RoundWinner)`**:
-    *   **Function**: This function returns the name of the round winner ("Player", "Computer", or "No Winner (Draw)") as a string, based on the `RoundWinner` value.
+•
+Configurable number of rounds (from 1 to 100)
 
-11. **`void GetTheScreenColor(enGameParticipants Winner)`**:
-    *   **Function**: This function changes the background color of the console screen based on the round's winner. For example, it might turn green if the player wins, red if the computer wins, and yellow for a draw. It also plays a sound if the computer wins.
+•
+Random computer choice generation
 
-12. **`void ShowGameOverInScreen()`**:
-    *   **Function**: This function displays a formatted "+++ G a m e O v e r +++" message on the screen to indicate the end of the game.
+•
+Tracking of individual round results and overall statistics
 
-13. **`enGameParticipants PrintGameResults(strGameResults GameResults)`**:
-    *   **Function**: This function prints the final game results to the screen. This includes the total rounds played, player wins, computer wins, draw counts, and the final winner of the game. It also returns the final winner.
+•
+Screen color changes based on round outcomes
 
-14. **`enGameParticipants StartRound()`**:
-    *   **Function**: This function starts a new round of the game. It gets the user's choice and the computer's choice, determines the round winner, and displays the round results (each player's choice and the winner). It returns the round winner.
+•
+Replay option after completing rounds
 
-15. **`void StartRoundsAsPerUserRequest(short RoundNumber)`**:
-    *   **Function**: This function executes a specified number of game rounds (`RoundNumber`) as requested by the user. In each round, it calls `StartRound()` and updates the overall game results. After all rounds are completed, it displays the final game results.
+Requirements
 
-16. **`void ResetScreen()`**:
-    *   **Function**: This function clears the console screen content and resets its color to the default (usually black and white).
+•
+C++ compiler (such as GCC or Visual C++)
 
-17. **`void StartGame()`**:
-    *   **Function**: This is the main function that manages the entire game flow. It starts by asking the user how many rounds they want to play. It then manages the execution of these rounds. Finally, it asks the user if they want to play again. The game continues as long as the user answers 'Y' or 'y'.
+•
+Operating system supporting the used system commands (like system("cls") and system("color"))
 
-18. **`int main()`**:
-    *   **Function**: This is the entry point for any C++ program. In this program, the `main` function only calls the `StartGame()` function to begin the game.
+Installation and Running
 
-Additionally, there are some initial definitions:
-*   **`enum enGameOption { Stone = 1, Paper = 2, Scissor = 3 };`**: This enumeration defines the possible choices in the game (Stone, Paper, Scissor) and assigns a numerical value to each.
-*   **`enum enGameParticipants { Player = 1, Coumputer = 2, Draw = 3 };`**: This enumeration defines the possible participants or round outcomes (Player, Computer, Draw) and assigns a numerical value to each.
-*   **`struct strGameResults`**: This structure is defined to store the game results, such as the number of rounds, player wins, computer wins, and draw counts.
+1.
+Download or clone the repository:
+
+2.
+Navigate to the project folder:
+
+3.
+Compile the code:
+
+•
+Using GCC:
+
+•
+Using Visual C++:
+
+
+
+4.
+Run the game:
+
+•
+On Linux/macOS:
+
+•
+On Windows:
+
+
+
+How to Play
+
+1.
+When the game starts, you'll be asked to enter the number of rounds you want to play (from 1 to 100).
+
+2.
+In each round, you'll be prompted to choose one of the following options:
+
+•
+1 for Stone (Rock)
+
+•
+2 for Paper
+
+•
+3 for Scissors
+
+
+
+3.
+The computer will randomly select its move.
+
+4.
+The round result will be displayed and the screen color will change according to the outcome:
+
+•
+Green if you win
+
+•
+Red if the computer wins
+
+•
+Yellow in case of a draw
+
+
+
+5.
+After all rounds are completed, the final results will be displayed and the overall winner determined.
+
+6.
+You'll be asked if you want to play again.
+
+Project Structure
+
+Enumerations (Enums)
+
+Plain Text
+
+
+enum enGameOption { Stone = 1, Paper = 2, Scissor = 3 };
+enum enGameParticipants { Player = 1, Computer = 2, Draw = 3 };
+
+
+Structures (Structs)
+
+Plain Text
+
+
+struct stRounds {
+    enGameOption PlayerChoice;
+    enGameOption ComputerChoice;
+    enGameParticipants RoundWinner;
+};
+
+struct strGameInfo {
+    int RoundTimes = 0;
+    int Player1WonTimes = 0;
+    int ComputerWonTimes = 0;
+    int DrawTimes = 0;
+    enGameParticipants FinalWinner;
+    stRounds Round[100];
+};
+
+
+Key Functions
+
+•
+RandomNumber(int From, int To): Generate a random number within a specified range
+
+•
+ReadNumberRange(int From, int To, string Message): Read and validate user input
+
+•
+ComputerChoice(): Generate a random choice for the computer
+
+•
+PlayerChoice(): Read the player's choice
+
+•
+CheckRoundWinner(strGameInfo& GameInfo, int RoundNumber): Determine the winner of each round
+
+•
+CheckFinalWinner(strGameInfo& GameInfo): Determine the final winner
+
+•
+StartRound(strGameInfo& GameInfo, int RoundNumber): Run a single round
+
+•
+StartRoundsAsPerUserRequest(short RoundNumber): Run multiple rounds as requested by the user
+
+•
+StartGame(): Start the game and manage the game loop and replay
+
+Programming Concepts Applied
+
+This project applies numerous fundamental programming concepts:
+
+1.
+Generating Random Numbers: Using rand() to generate computer choices
+
+2.
+Handling User Input: Reading and validating user choices
+
+3.
+Working with Enums: Using enum types to represent game choices and winners
+
+4.
+Conditional Logic: Implementing decision-making using if and switch-case
+
+5.
+Using Structures: Storing structured game data
+
+6.
+String Manipulation: Converting enum values to readable strings
+
+7.
+Looping: Using for and while loops to iterate through rounds
+
+8.
+Creating Functions: Writing reusable functions for various tasks
+
+9.
+Generating Computer Choices: Simulating simple AI behavior
+
+10.
+Comparing Values: Determining winners based on game rules
+
+11.
+Game Loop & Replay Feature: Allowing multiple rounds of play
+
+12.
+Clearing the Screen: Using system calls to enhance user experience
+
+13.
+Tracking Scores: Storing and displaying game statistics
+
+14.
+Working with Boolean Logic: Comparing values to determine game continuation
+
+15.
+Reading and Returning Values from Functions: Using return values
+
+16.
+Switch-Case for Decision Making: Implementing structured approach to game logic
+
+17.
+Using srand(time(NULL)): Ensuring different results in each game
+
+18.
+Handling Edge Cases: Validating user input to prevent invalid choices
+
+19.
+Implementing a Simple AI: Generating non-human opponent decisions
+
+20.
+Debugging & Output Formatting: Printing structured results with clear formatting
+
+Game Rules
+
+•
+Rock beats Scissors
+
+•
+Paper beats Rock
+
+•
+Scissors beats Paper
+
+•
+If the player and computer choose the same option, the result is a draw
+
 
  **`Full example of output`**
 
