@@ -45,13 +45,6 @@ This project is an implementation of the classic "Rock-Paper-Scissors" game writ
 5.  After all rounds are completed, the final results will be displayed and the overall winner determined. [cite: 8]
 6.  You'll be asked if you want to play again. [cite: 9]
 
-## Project Structure
-
-### Enumerations (Enums)
-```cpp
-enum enGameOption { Stone = 1, Paper = 2, Scissor = 3 }; [cite: 10]
-enum enGameParticipants { Player = 1, Computer = 2, Draw = 3 }; [cite: 10]
-
  **`Full example of output`**
 
 ```
