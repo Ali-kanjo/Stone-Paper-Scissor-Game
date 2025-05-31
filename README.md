@@ -27,6 +27,7 @@ cl /EHsc main.cpp             # Visual C++
 # Execution
 ./game                        # Linux/macOS
 game.exe                      # Windows
+
 **How to Play**
 
 1. When the game starts, you'll be asked to enter the number of rounds you want to play (from 1 to 100).
@@ -174,28 +175,4 @@ Printing structured results with clear formatting
 - Scissors beats Paper
 - If the player and computer choose the same option, the result is a draw
 
-**Contributing**
 
-Contributions to improve this project are welcome! If you'd like to contribute, please follow these steps:
-
-1. Fork the repository
-1. Create a new branch for your feature ( git checkout -b feature/amazing-feature )
-1. Make your changes
-1. Commit your changes ( git commit -m 'Add some amazing feature' )
-1. Push to the branch ( git push origin feature/amazing-feature )
-1. Open a Pull Request
-
-**License**
-
-This project is licensed under the MIT License - see the [LICENSE file for](file:///tmp/LICENSE) details.
-
-**Credits**
-
-- This project was developed as an educational example to demonstrate basic programming concepts in C++.
-- Special thanks to all contributors and instructors who helped develop this project.
-
-**Contact**
-
-If you have any questions or suggestions, please open an issue in this repository or contact the main developer via email.![](Aspose.Words.13dfe2c5-a143-45f7-8bc1-ec929897fae2.005.png)
-
-Created by [Your Name] © 2025
