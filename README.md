@@ -1,15 +1,18 @@
 # Rock-Paper-Scissors Game
 
 ## Overview
-This project is an implementation of the classic "Rock-Paper-Scissors" game written in C++. [cite: 1] It allows users to play against the computer in multiple rounds, tracking results and determining the final winner. [cite: 2] The project demonstrates various programming concepts and serves as an excellent example for beginners in programming. [cite: 3]
+This project is an implementation of the classic "Rock-Paper-Scissors" game written in
+C++. It allows users to play against the computer in multiple rounds, tracking results and
+determining the final winner. The project demonstrates various programming concepts
+and serves as an excellent example for beginners in programming.
 
 ## Features
-* Easy-to-use text-based user interface [cite: 4]
-* Configurable number of rounds (from 1 to 100) [cite: 4]
-* Random computer choice generation [cite: 4]
-* Tracking of individual round results and overall statistics [cite: 4]
-* Screen color changes based on round outcomes [cite: 4]
-* Replay option after completing rounds [cite: 4]
+*Easy-to-use text-based user interface
+*Configurable number of rounds (from 1 to 100)
+*Random computer choice generation
+*Tracking of individual round results and overall statistics
+*Screen color changes based on round outcomes
+*Replay option after completing rounds
 
 ## Requirements
 * C++ compiler (such as GCC or Visual C++)
@@ -18,7 +21,7 @@ This project is an implementation of the classic "Rock-Paper-Scissors" game writ
 ## Installation and Running
 1.  Download or clone the repository:
     ```bash
-    git clone [https://github.com/yourusername/rock-paper-scissors.git](https://github.com/yourusername/rock-paper-scissors.git)
+    git clone [https://github.com/Ali-kanjo/rock-paper-scissors.git](https://github.com/Ali-kanjo/rock-paper-scissors.git)
     ```
 2.  Navigate to the project folder:
     ```bash
