@@ -17,8 +17,6 @@ Implementation of the classic "Rock-Paper-Scissors" game in C++. Allows users to
 
 ## Installation & Running
 
-```bash
-git clone https://github.com/yourusername/rock-paper-scissors.git
 cd rock-paper-scissors
 
 # Compilation
