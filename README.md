@@ -22,7 +22,7 @@ This project is an implementation of the classic "Rock-Paper-Scissors" game writ
 
 1. Download or clone the repository:
 ```bash
-git clone https://github.com/yourusername/rock-paper-scissors.git
+git clone https://github.com/yourusername/rock-paper-scissors.git```
 
 
 
