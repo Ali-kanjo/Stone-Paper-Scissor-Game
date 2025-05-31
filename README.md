@@ -1,38 +1,32 @@
-**Rock-Paper-Scissors Game**
+# Rock-Paper-Scissors Game
 
-**Overview**
+## Overview
+Implementation of the classic "Rock-Paper-Scissors" game in C++. Allows users to play against the computer in multiple rounds with result tracking.
 
-This project is an implementation of the classic "Rock-Paper-Scissors" game written in C++. It allows users to play against the computer in multiple rounds, tracking results and determining the final winner. The project demonstrates various programming concepts and serves as an excellent example for beginners in programming.
-
-**Features**
-
-- Easy-to-use text-based user interface
-- Configurable number of rounds (from 1 to 100)
+## Features
+- Easy-to-use text-based interface
+- Configurable rounds (1-100)
 - Random computer choice generation
-- Tracking of individual round results and overall statistics
-- Screen color changes based on round outcomes
-- Replay option after completing rounds
+- Round result tracking and statistics
+- Screen color changes based on outcomes
+- Replay option after completion
 
-**Requirements**
+## Requirements
+- C++ compiler (GCC/Visual C++)
+- OS supporting system commands (`cls`/`color`)
 
-- C++ compiler (such as GCC or Visual C++)
-- Operating system supporting the used system commands (like  system("cls") and system("color") )
+## Installation & Running
+```bash
+git clone https://github.com/yourusername/rock-paper-scissors.git
+cd rock-paper-scissors
 
-**Installation and Running**
+# Compilation
+g++ -o game main.cpp          # GCC
+cl /EHsc main.cpp             # Visual C++
 
-1\. Download or clone the repository:
-
-git clone https://github.com/yourusername/rock-paper-scissors.git ![](Aspose.Words.13dfe2c5-a143-45f7-8bc1-ec929897fae2.001.png)1. Navigate to the project folder:
-
-cd rock-paper-scissors![](Aspose.Words.13dfe2c5-a143-45f7-8bc1-ec929897fae2.002.png)
-
-1. Compile the code:
-1. Using GCC:  g++ -o game main.cpp
-3. Using Visual C++:  cl /EHsc main.cpp
-3. Run the game:
-3. On Linux/macOS:  ./game
-3. On Windows:  game.exe
-
+# Execution
+./game                        # Linux/macOS
+game.exe                      # Windows
 **How to Play**
 
 1. When the game starts, you'll be asked to enter the number of rounds you want to play (from 1 to 100).
