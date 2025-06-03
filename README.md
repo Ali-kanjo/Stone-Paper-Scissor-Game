@@ -2,7 +2,7 @@
 
 
 ## Overview
-A C++ implementation of the classic "Rock-Paper-Scissors" game where players compete against the computer. This project demonstrates fundamental programming concepts and serves as an excellent learning resource for C++ beginners.
+A C++ implementation of the classic "Stone-Paper-Scissors" game where players compete against the computer. This project demonstrates fundamental programming concepts and serves as an excellent learning resource for C++ beginners.
 
 ## Features
 - 🎮 Text-based user interface
@@ -19,10 +19,10 @@ A C++ implementation of the classic "Rock-Paper-Scissors" game where players com
 ## Installation & Running
 ```bash
 # Clone repository
-git clone https://github.com/yourusername/rock-paper-scissors.git
+git clone https://github.com/Ali-kanjo/Stone-Paper-Scissors.git
 
 # Navigate to project
-cd rock-paper-scissors
+cd Stone-Paper-Scissors
 
 # Compile with GCC
 g++ -o game main.cpp
