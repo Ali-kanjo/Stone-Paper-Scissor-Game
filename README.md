@@ -102,3 +102,69 @@ struct strGameInfo {
 - 📄 Paper beats 🪨 Rock
 - ✂️ Scissors beats 📄 Paper
 - Same choice = Draw
+
+**sample output** from a run of the program where the user plays 3 rounds and chooses Stone, Paper, and Scissor in order:
+
+---
+
+```
+Enter how many round you want ?
+3
+
+Round[1] begins :
+
+____________________________Round[1]____________________________
+
+
+Your Choice : [1] Stone, [2]Paper, [3]Scissors ? 1
+Player1  Choice: Stone
+Computer Choice: Scissor
+Round Winner   : [Player]
+
+________________________________________________________
+
+Round[2] begins :
+
+____________________________Round[2]____________________________
+
+
+Your Choice : [1] Stone, [2]Paper, [3]Scissors ? 2
+Player1  Choice: Paper
+Computer Choice: Paper
+Round Winner   : [No Winner (Draw)]
+
+________________________________________________________
+
+Round[3] begins :
+
+____________________________Round[3]____________________________
+
+
+Your Choice : [1] Stone, [2]Paper, [3]Scissors ? 3
+Player1  Choice: Scissor
+Computer Choice: Stone
+Round Winner   : [Computer]
+
+________________________________________________________
+
+			____________________________________________________________
+
+					+++ G a m e  O v e r +++
+			____________________________________________________________
+
+
+			_______________________[ Game Results ]_______________________
+
+			Game Round         : 3
+			Player1 won times  : 1
+			Computer won times : 1
+			Draw times         : 1
+			Final Winner       : No Winner (Draw)
+			____________________________________________________________
+			
+
+			Do you want to play again ?(Y/N)?n
+```
+
+---
+
