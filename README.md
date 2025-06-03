@@ -1,6 +1,5 @@
 # Rock-Paper-Scissors Game in C++
 
-![Game Screenshot](https://via.placeholder.com/600x400?text=Rock+Paper+Scissors+Demo) *Screenshot placeholder*
 
 ## Overview
 A C++ implementation of the classic "Rock-Paper-Scissors" game where players compete against the computer. This project demonstrates fundamental programming concepts and serves as an excellent learning resource for C++ beginners.
@@ -103,25 +102,3 @@ struct strGameInfo {
 - 📄 Paper beats 🪨 Rock
 - ✂️ Scissors beats 📄 Paper
 - Same choice = Draw
-
-## Contributing
-Contributions welcome! Please follow these steps:
-1. Fork the repository
-2. Create feature branch: `git checkout -b feature/your-feature`
-3. Commit changes: `git commit -m 'Add feature'`
-4. Push to branch: `git push origin feature/your-feature`
-5. Open pull request
-
-## License
-MIT License - See [LICENSE](LICENSE) for details.
-
-## Credits
-Developed as an educational example to demonstrate basic C++ programming concepts. Special thanks to all contributors and instructors.
-
-## Contact
-- [Open an issue](https://github.com/yourusername/rock-paper-scissors/issues)
-- Email: your.email@example.com
-
----
-Created by **[Your Name]** © 2025  
-![GitHub stars](https://img.shields.io/github/stars/yourusername/rock-paper-scissors?style=social)
